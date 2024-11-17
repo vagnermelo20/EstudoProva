@@ -1,7 +1,7 @@
 #w escreve, mas apaga o que existe na lista
 #r lê
 #a escreve mas não apaga
-
+# r+ é ler e alterar
 #.strip() exclui o que está nos parentes
 #.split() cria listas separando as partes
 arquivo = open("arquivo.txt", "w", encoding="utf-8")
